@@ -19,7 +19,7 @@ on:
       deployment-status:
         description: "Status of the ECS deployment"
         value: ${{ jobs.deploy.outputs.deployment-status }}
-
+ 
 env:
   AWS_ACCOUNT_ID: ${{ inputs.aws-account-id }}
   AWS_REGION: ${{ inputs.aws-region }}
